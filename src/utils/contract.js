@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 import VotingSystem from "../../artifacts/contracts/VotingSystem.sol/VotingSystem.json";
 
-const contractAddress = "0xd8f516CD2d259450B6f9fF8B9c740D9CDd8A6C31";
+const contractAddress = "0xf9FD8850A9Fe7F2c116126c40b4ae7219873f929";
 
 export const getContract = async () => {
   if (typeof window.ethereum !== "undefined") {
